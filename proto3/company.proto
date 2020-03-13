@@ -1,0 +1,32 @@
+/**
+ * Company entity Protocol Buffers
+ * Author: Albert Nadal Garriga
+ */
+
+syntax = "proto3";
+import "google/protobuf/timestamp.proto";
+
+message Company {
+
+  enum CompanyCategory {
+    AGRICULTURE = 0;
+    ARTS = 1;
+    CONSTRUCTION = 2;
+    EDUCATIONAL = 3;
+    FINANCE = 4;
+    HIGHTECH = 5;
+    LEGAL = 6;
+    MANUFACTURING = 7;
+    MEDICAL = 8;
+    NON_PROFIT = 9;
+  }
+
+  uint32 id = 1;
+  string name = 2;
+  string description = 3;
+  CompanyCategory category = 4;
+  uint32 employees = 5;
+  bool active = 6;
+  bytes logo = 7;
+  google.protobuf.Timestamp created = 8;
+}

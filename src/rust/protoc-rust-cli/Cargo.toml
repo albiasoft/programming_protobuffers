@@ -1,0 +1,9 @@
+[package]
+name = "protoc-rust-cli"
+version = "0.0.0"
+authors = ["Albert Nadal Garriga"]
+keywords = ["proto3", "protoc"]
+edition = "2018"
+
+[dependencies]
+protoc-rust = "2.10.2"
