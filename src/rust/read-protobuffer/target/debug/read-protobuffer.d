@@ -1,0 +1,1 @@
+/Users/albert/albiasoft/protobuffers_demo/src/rust/read-protobuffer/target/debug/read-protobuffer: /Users/albert/albiasoft/protobuffers_demo/src/rust/read-protobuffer/src/main.rs /Users/albert/albiasoft/protobuffers_demo/src/rust/read-protobuffer/src/protocol/company.rs /Users/albert/albiasoft/protobuffers_demo/src/rust/read-protobuffer/src/protocol/mod.rs
